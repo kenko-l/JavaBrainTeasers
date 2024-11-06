@@ -8,9 +8,9 @@ public class CountsVowelsInString {
 		int count = 0;
 		
 		for(int i = 0; i < input.length(); i++) {
-			char vowel = Character.toLowerCase(input.charAt(i));
+			char v = Character.toLowerCase(input.charAt(i));
 			
-			if(vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel == 'u') {
+			if(v == 'a' || v == 'e' || v == 'i' || v == 'o' || v == 'u') {
 				count++;
 			}
 		}
