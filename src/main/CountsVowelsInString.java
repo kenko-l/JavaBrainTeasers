@@ -13,7 +13,7 @@ public class CountsVowelsInString {
 			if(vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel == 'u') {
 				count++;
 			}
-		}
+		} 
 		
 		System.out.println("You have " + count + "vowels in your word");
 		
